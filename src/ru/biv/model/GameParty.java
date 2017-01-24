@@ -45,8 +45,8 @@ public class GameParty extends Parent {
                 if (x != -1 && y != -1) {
                     System.out.println("x: " + me.getX() + "\ty: " + me.getY());
                     System.out.println("newX: " + x + "\tnewY: " + y);
-                    currentStone = new StoneBlack(x,y);
-                    group.getChildren().add((StoneBlack)currentStone);
+                    currentStone = new StoneWhite(x,y);
+                    group.getChildren().add((StoneWhite)currentStone);
                 }
             }
         });

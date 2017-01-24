@@ -60,11 +60,6 @@ public final class Config {
             } catch (Exception e) {
                 System.out.println("Image "+imageName+" not found");
             }
-            /*
-            if (image.isError()) {
-
-            }*/
-
         }
     }
     private Config() {}

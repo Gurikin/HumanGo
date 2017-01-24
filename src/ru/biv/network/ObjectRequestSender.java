@@ -14,28 +14,26 @@ import java.util.Map;
  */
 public class ObjectRequestSender {
     private static CookieManager cookieManager = new CookieManager();
-    //private static String requestParameters = "";
     static final String COOKIES_HEADER = "Set-Cookie";
 
-    public static UserSession sendGetRequest(String endpoint, String requestParameters) {
-        UserSession userSession = new UserSession();
-        //ObjectOutputStream objectOutputStream;
+
+    public static UserSession sendGetRequest(String endpoint, UserSession userSession) {
+        ObjectOutputStream objectOutputStream;
         ObjectInputStream objectInputStream;
-        if (endpoint.startsWith("http://"))
-        {
+        if (endpoint.startsWith("http://")) {
             try
             {
                 String urlStr = endpoint;
-                if (requestParameters != null && requestParameters.length () > 0)
-                {
-                    urlStr += "?" + requestParameters;
-                }
+                //if (requestParameters != null && requestParameters.length () > 0)
+                //{
+                //    urlStr += "?" + requestParameters;
+                //}
                 CookieHandler.setDefault(cookieManager);
                 URL url = new URL(urlStr);
 
 
                 URLConnection conn = url.openConnection ();
-                //conn.setDoOutput(true);
+                conn.setDoOutput(true);
                 conn.setDoInput(true);
 
 
@@ -47,8 +45,13 @@ public class ObjectRequestSender {
                             TextUtils.join(";", cookieManager.getCookieStore().getCookies()));
                 }
 
+                //Отправляем объект на сервер
+                objectOutputStream = new ObjectOutputStream(conn.getOutputStream());
+                objectOutputStream.writeObject(userSession);
+                objectOutputStream.flush();
+                objectOutputStream.close();
+
                 //Get the cookie from the response
-                //objectOutputStream = new ObjectOutputStream(conn.getOutputStream());
                 Map<String, List<String>> headerFields = conn.getHeaderFields();
                 List<String> cookiesHeader = headerFields.get(COOKIES_HEADER);
                 if (cookiesHeader != null) {
@@ -57,17 +60,14 @@ public class ObjectRequestSender {
                     }
                 }
 
-                //objectOutputStream.writeObject(userSession);
-
                 //Send the request
                 conn.connect();
-                //objectOutputStream.close();
+
 
                 objectInputStream = new ObjectInputStream(conn.getInputStream());
                 userSession = (UserSession) objectInputStream.readObject();
                 System.out.println("Имя пользователя из userSession сендера: " + userSession.getUserName());
                 System.out.println("Id пользователя из userSession сендера: " + userSession.getUserId(userSession.getUserName()));
-                //result = userSession.getAuth();
                 objectInputStream.close();
             } catch (Exception e)
             {
