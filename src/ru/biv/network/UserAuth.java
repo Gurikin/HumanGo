@@ -21,7 +21,8 @@ public class UserAuth {
     }
 
     public UserSession getUserAuth() {
-        requestUserSession.setUserSession(this.userName, null);
+        //requestUserSession.setUser(this.userName, responseUserSession.getUserId(userName));
+        requestUserSession.setUser(this.userName, null);
         responseUserSession = ObjectRequestSender.sendGetRequest(LOG_URL, requestUserSession);
         return responseUserSession;
     }

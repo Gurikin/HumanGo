@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HumanGo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HumanGo_jar</output-path>
+    <root id="archive" name="HumanGo.jar">
+      <element id="module-output" name="HumanGo" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javax.json-1.0.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

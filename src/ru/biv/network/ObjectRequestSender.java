@@ -66,8 +66,6 @@ public class ObjectRequestSender {
 
                 objectInputStream = new ObjectInputStream(conn.getInputStream());
                 userSession = (UserSession) objectInputStream.readObject();
-                System.out.println("Имя пользователя из userSession сендера: " + userSession.getUserName());
-                System.out.println("Id пользователя из userSession сендера: " + userSession.getUserId(userSession.getUserName()));
                 objectInputStream.close();
             } catch (Exception e)
             {

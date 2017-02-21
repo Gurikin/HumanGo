@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.7" maxHeight="925.0" maxWidth="1200.0" minHeight="925.0" minWidth="1200.0" prefHeight="925.0" prefWidth="1200.0" style="-fx-border-color: #3B312B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.biv.view.login.GameController">
+  <items>
+    <AnchorPane fx:id="gameField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="925.0" prefWidth="900.0" style="-fx-background-color: #3B312B;" />
+    <AnchorPane>
+         <children>
+            <SplitPane dividerPositions="0.5" layoutX="68.0" layoutY="9.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" orientation="VERTICAL" prefHeight="798.0" prefWidth="296.0" style="-fx-border-color: #3B312B;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <items>
+                <AnchorPane fx:id="gameStatictic" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #3B312B;">
+                     <children>
+                        <Button fx:id="logOutButton" layoutX="104.0" layoutY="400.0" mnemonicParsing="false" style="-fx-background-radius: 40;" text="LogOut">
+                           <font>
+                              <Font name="Bookman Old Style" size="16.0" />
+                           </font></Button>
+                        <Label fx:id="nameLabel" layoutX="93.0" layoutY="31.0" text="Your name is: " textAlignment="CENTER" textFill="#f8caca">
+                           <font>
+                              <Font name="Bookman Old Style" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="idLabel" layoutX="104.0" layoutY="57.0" text="Your ID is: " textAlignment="CENTER" textFill="#f8caca">
+                           <font>
+                              <Font name="Bookman Old Style" size="14.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+                <AnchorPane fx:id="userStatistic" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #3B312B;" />
+              </items>
+            </SplitPane>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

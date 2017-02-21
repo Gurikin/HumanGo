@@ -24,12 +24,12 @@
    <children>
       <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: black;">
          <children>
-            <TextField fx:id="inputNick" layoutX="150.0" layoutY="142.0" prefHeight="30.0" prefWidth="300.0" promptText="Your nick" style="-fx-background-radius: 20;">
+            <TextField fx:id="inputNick" layoutX="150.0" layoutY="142.0" onKeyPressed="#handleInputNickKeyPressed" prefHeight="30.0" prefWidth="300.0" promptText="Your nick" style="-fx-background-radius: 20;">
                <font>
                   <Font name="Bookman Old Style" size="18.0" />
                </font>
             </TextField>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="225.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleLogInButton" prefHeight="40.0" prefWidth="100.0" style="-fx-background-radius: 20;" text="LogIn" textAlignment="CENTER">
+            <Button fx:id="loginButton" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="225.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-radius: 20;" text="LogIn" textAlignment="CENTER">
                <font>
                   <Font name="Bookman Old Style" size="20.0" />
                </font>

@@ -1,39 +1,65 @@
 package ru.biv;
 
 import javafx.application.Application;
+import javafx.concurrent.Service;
+import javafx.concurrent.Task;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.SplitPane;
 import javafx.scene.layout.GridPane;
-import javafx.scene.paint.Color;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 import ru.biv.model.Config;
 import ru.biv.model.MainFrame;
+import ru.biv.msgSystem.UserSession;
+import ru.biv.network.ObjectRequestSender;
+import ru.biv.network.UserAuth;
+import ru.biv.view.login.AuthController;
 import ru.biv.view.login.LogInController;
+import ru.biv.view.login.LogInManager;
+import sun.rmi.runtime.Log;
 
+import javax.jws.soap.SOAPBinding;
 import java.io.IOException;
+import java.util.Observable;
+import java.util.Observer;
 
 public class MainApp extends Application {
 
     private static Stage primaryStage;
 
-    private static MainFrame mainFrame;
+    private MainFrame mainFrame;
+
+    //private static AuthController controller;
+
+    //public String userName;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        MainApp.primaryStage = primaryStage;
+        /*MainApp.primaryStage = primaryStage;
         MainApp.primaryStage.setTitle("HumanGo");
         MainApp.primaryStage.setResizable(false);
 
         initRootLayout();
 
-        showLogInForm();
+        showLogInForm();*/
+
+        //AuthService authService = new AuthService();
+        //authService.setMainApp(this);
+        //authService.start();
+        Scene scene = new Scene(new StackPane());
+
+        LogInManager logInManager = new LogInManager(scene, primaryStage);
+        logInManager.showLoginView();
+
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 
 
-    public void initRootLayout() {
+    /*public void initRootLayout() {
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("view/login/LogInForm.fxml"));
@@ -46,12 +72,12 @@ public class MainApp extends Application {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
     /**
      * Показывает в корневом макете сведения об адресатах.
      */
-    public void showLogInForm() {
+    /*public void showLogInForm() {
         try {
             // Загружаем сведения об адресатах.
             FXMLLoader loader = new FXMLLoader();
@@ -60,6 +86,7 @@ public class MainApp extends Application {
 
             // Даём контроллеру доступ к главному приложению.
             //LogInController controller = loader.getController();
+            //System.out.println("From " + this.getClass() + " controller hashcode " + hashCode());
             //controller.setMainApp(this);
 
         } catch (IOException e) {
@@ -71,7 +98,7 @@ public class MainApp extends Application {
         try {
             FXMLLoader gameLoader = new FXMLLoader();//(getClass().getResource("view/game/GameForm.fxml"));
             gameLoader.setLocation(MainApp.class.getResource("view/game/GameForm.fxml"));
-            primaryStage.close();
+            //primaryStage.hide();
 
             SplitPane gameForm = (SplitPane) gameLoader.load();
             Config.initialize();
@@ -80,7 +107,7 @@ public class MainApp extends Application {
             mainFrame = new MainFrame(root);
 
             // Создаём диалоговое окно Stage.
-            primaryStage = new Stage();
+            //primaryStage = new Stage();
             primaryStage.setTitle("HumanGo");
             primaryStage.setWidth(1200);
             primaryStage.setHeight(925);
@@ -99,22 +126,13 @@ public class MainApp extends Application {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
     public Stage getPrimaryStage() {
         return primaryStage;
     }
 
-
     public static void main(String[] args) throws IOException {
         launch(args);
     }
-
-    /*@Override
-    public void stop() {
-        if (!primaryStage.isShowing()) {
-            LogInController logInController = new LogInController();
-            logInController.taskObject.cancel(true);
-        }
-    }*/
 }
