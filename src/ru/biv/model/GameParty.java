@@ -2,13 +2,12 @@ package ru.biv.model;
 
 import javafx.event.EventHandler;
 import javafx.scene.Group;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
-
-import ru.biv.utils.*;
+import ru.biv.msgSystem.UserSession;
+import ru.biv.utils.CoordHelper;
 
 /**
  * Created by Игорь on 23.12.2016.
@@ -16,7 +15,8 @@ import ru.biv.utils.*;
 public class GameParty extends Parent {
 
     private Group group;
-    Stone currentStone;
+    private Stone currentStone;
+    private ImageView background;
 
     public GameParty() {
         group = new Group();
@@ -30,7 +30,7 @@ public class GameParty extends Parent {
 
     private void initContent() {
 
-        ImageView background = new ImageView();
+        background = new ImageView();
         background.setFocusTraversable(true);
         background.setImage(Config.getImages().get(Config.IMAGE_BACKGROUND));
         background.setFitWidth(Config.SCREEN_WIDTH);
@@ -38,18 +38,7 @@ public class GameParty extends Parent {
         background.setTranslateX(Config.WINDOW_BORDER);
         background.setTranslateY(Config.WINDOW_BORDER);
 
-        background.setOnMousePressed(new EventHandler<MouseEvent>() {
-            public void handle(MouseEvent me) {
-                double x = CoordHelper.getCoordinatesCreate(me.getX());
-                double y = CoordHelper.getCoordinatesCreate(me.getY());
-                if (x != -1 && y != -1) {
-                    System.out.println("x: " + me.getX() + "\ty: " + me.getY());
-                    System.out.println("newX: " + x + "\tnewY: " + y);
-                    currentStone = new StoneWhite(x,y);
-                    group.getChildren().add((StoneWhite)currentStone);
-                }
-            }
-        });
+
         background.setOnKeyPressed(new EventHandler<KeyEvent>() {
             public void handle(KeyEvent ke) {
                 /*if ((ke.getCode() == KeyCode.POWER) || (ke.getCode() == KeyCode.X)) {
@@ -84,5 +73,37 @@ public class GameParty extends Parent {
             }
         });
         group.getChildren().add(background);
+    }
+    public void addStone(double x, double y, UserSession userSession) {
+        if (userSession.getLastStep().equals(null)) {
+            return;
+        } else {
+            if (userSession.getStone().equals("BLACK")) {
+                currentStone = new StoneBlack(x,y);
+                group.getChildren().add((StoneBlack)currentStone);
+            } else {
+                currentStone = new StoneWhite(x,y);
+                group.getChildren().add((StoneWhite)currentStone);
+            }
+        }
+        double[] step = new double[2];
+        step[0] = x;
+        step[1] = y;
+        userSession.setLastStep(step);
+
+    }
+
+    public void setMousePress(UserSession userSession) {
+        background.setOnMousePressed(new EventHandler<MouseEvent>() {
+            public void handle(MouseEvent me) {
+                double x = CoordHelper.getCoordinatesCreate(me.getX());
+                double y = CoordHelper.getCoordinatesCreate(me.getY());
+                if (x != -1 && y != -1) {
+                    System.out.println("x: " + me.getX() + "\ty: " + me.getY());
+                    System.out.println("newX: " + x + "\tnewY: " + y);
+                    addStone(x,y,userSession);
+                }
+            }
+        });
     }
 }

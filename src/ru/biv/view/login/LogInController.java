@@ -48,7 +48,7 @@ public class LogInController {
 
     @FXML
     public void handleInputNickKeyPressed(javafx.scene.input.KeyEvent e) {
-        System.out.println(e.getCode().ordinal());
+        //System.out.println(e.getCode().ordinal());
         if (e.getCode().ordinal() == 0) {
             handleLogInButton();
         }

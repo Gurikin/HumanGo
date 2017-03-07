@@ -53,7 +53,7 @@ public class LogInManager {
                     updateMessage("Cancelled");
                     break;
                 }
-                System.out.println("FROM contr:\t\tИмя пользователя: "+userAuth.getUserAuth().getUserName()+"\tId пользователя: "+userAuth.getUserAuth().getUserId(userAuth.getUserAuth().getUserName()));
+                //System.out.println("FROM contr:\t\tИмя пользователя: "+userAuth.getUserAuth().getUserName()+"\tId пользователя: "+userAuth.getUserAuth().getUserId(userAuth.getUserAuth().getUserName()));
                 if (userAuth.getUserAuth().getAuth() == "AUTHORIZATION") {
                     setResponseResultText("Авторизация на подходе. Подождите, пожалуйста.");
                 }
@@ -147,6 +147,8 @@ public class LogInManager {
         Platform.runLater(new Runnable() {
             @Override public void run() {
                 gameController.setLabelsText(userSession);//userSession.getUserName();
+                mainFrame.getGameParty().setMousePress(userSession);
+                System.out.println(userSession.getLastStep()[0] + "\t" + userSession.getLastStep()[1]);
                 //userSession.getUserId(userAuth.getUserAuth().getUserName());
             }
         });

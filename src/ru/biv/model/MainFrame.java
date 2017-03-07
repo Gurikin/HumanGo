@@ -24,6 +24,9 @@ public class MainFrame {
         } catch (NullPointerException e) {
             e.printStackTrace();
         }
+    }
 
+    public GameParty getGameParty() {
+        return this.gameParty;
     }
 }
