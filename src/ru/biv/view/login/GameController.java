@@ -30,7 +30,10 @@ public class GameController {
     private Label nameLabel;
 
     @FXML
-    private Label idLabel;
+    private Label emenyNameLabel;
+
+    @FXML
+    private Label partyDurationTimeLabel;
 
     private Stage gameStage;
 
@@ -65,7 +68,6 @@ public class GameController {
 
     public void initSessionID(LogInManager logInManager, UserSession userSession) {
         nameLabel.setText(nameLabel.getText()+userSession.getUserName());
-        idLabel.setText(idLabel.getText()+userSession.getUserId(userSession.getUserName()).toString());
         logOutButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -73,10 +75,12 @@ public class GameController {
             }
         });
     }
-    public void setNameLabelText(String userName) {
-        nameLabel.setText("Имя пользователя: "+userName);
+    public void setLabelsText(UserSession userSession) {
+        nameLabel.setText("Your name:  "+userSession.getUserName());
+        emenyNameLabel.setText("Enemy name:  "+userSession.getEnemyName());//getUserId(userSession.getUserName()).toString());
+        partyDurationTimeLabel.setText("Party duration time:  "+userSession.getPartyDurationTime());
     }
     public void setIdLabelText(Integer userId) {
-        idLabel.setText("Id пользователя:"+userId.toString());
+        emenyNameLabel.setText("Id пользователя:"+userId.toString());
     }
 }

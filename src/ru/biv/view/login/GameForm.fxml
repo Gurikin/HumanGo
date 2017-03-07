@@ -25,7 +25,12 @@
                               <Font name="Bookman Old Style" size="14.0" />
                            </font>
                         </Label>
-                        <Label fx:id="idLabel" layoutX="104.0" layoutY="57.0" text="Your ID is: " textAlignment="CENTER" textFill="#f8caca">
+                        <Label fx:id="emenyNameLabel" layoutX="86.0" layoutY="58.0" text="Enemy name is: " textAlignment="CENTER" textFill="#f8caca">
+                           <font>
+                              <Font name="Bookman Old Style" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="partyDurationTimeLabel" layoutX="74.0" layoutY="89.0" text="Party duration time:" textAlignment="CENTER" textFill="#f8caca">
                            <font>
                               <Font name="Bookman Old Style" size="14.0" />
                            </font>

@@ -7,26 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/game/GameController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/game/GameForm.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/biv/view/game/GameController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/biv/view/game/GameForm.fxml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/MainApp.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/MainApp.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HumanGo_jar/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HumanGo_jar/gameover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HumanGo_jar/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HumanGo_jar/ready.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HumanGo_jar/stoneBlack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HumanGo_jar/stoneWhite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/msgSystem/UserSession$stone.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HumanGo_jar/HumanGo.jar" afterPath="$PROJECT_DIR$/out/artifacts/HumanGo_jar/HumanGo.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/model/Config.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/model/Config.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/msgSystem/UserSession$auth.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/msgSystem/UserSession$auth.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/msgSystem/UserSession.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/msgSystem/UserSession.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/network/ObjectRequestSender.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/network/ObjectRequestSender.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/network/UserAuth.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/network/UserAuth.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInController$1.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInController.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/GameController$1.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/GameController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/GameController.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/GameController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInManager$4.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInManager$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInManager.class" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInForm.fxml" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/LogInForm.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/MainApp.java" afterPath="$PROJECT_DIR$/src/ru/biv/MainApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/GameForm.fxml" afterPath="$PROJECT_DIR$/out/production/HumanGo/ru/biv/view/login/GameForm.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/model/Config.java" afterPath="$PROJECT_DIR$/src/ru/biv/model/Config.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/msgSystem/UserSession.java" afterPath="$PROJECT_DIR$/src/ru/biv/msgSystem/UserSession.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/network/ObjectRequestSender.java" afterPath="$PROJECT_DIR$/src/ru/biv/network/ObjectRequestSender.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/network/UserAuth.java" afterPath="$PROJECT_DIR$/src/ru/biv/network/UserAuth.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/view/login/LogInController.java" afterPath="$PROJECT_DIR$/src/ru/biv/view/login/LogInController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/view/login/LogInForm.fxml" afterPath="$PROJECT_DIR$/src/ru/biv/view/login/LogInForm.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/view/login/GameController.java" afterPath="$PROJECT_DIR$/src/ru/biv/view/login/GameController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/view/login/GameForm.fxml" afterPath="$PROJECT_DIR$/src/ru/biv/view/login/GameForm.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/biv/view/login/LogInManager.java" afterPath="$PROJECT_DIR$/src/ru/biv/view/login/LogInManager.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,16 +93,11 @@
       <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/biv/view/login/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+            <state relative-caret-position="1105">
+              <caret line="79" column="79" selection-start-line="79" selection-start-column="79" selection-end-line="79" selection-end-column="79" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1310#1311#0" expanded="false" />
-                <element signature="e#1348#1349#0" expanded="false" />
-                <element signature="e#1399#1400#0" expanded="false" />
-                <element signature="e#1441#1442#0" expanded="false" />
-                <element signature="e#1845#1846#0" expanded="false" />
-                <element signature="e#1898#1899#0" expanded="false" />
+                <element signature="e#2281#2282#0" expanded="true" />
+                <element signature="e#2357#2358#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,9 +118,11 @@
       <file leaf-file-name="LogInManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/biv/view/login/LogInManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="264">
+              <caret line="125" column="60" selection-start-line="125" selection-start-column="60" selection-end-line="125" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,12 +131,32 @@
         <entry file="file://$PROJECT_DIR$/src/ru/biv/view/login/LogInController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="19" />
               <folding>
-                <element signature="e#631#632#0" expanded="false" />
-                <element signature="e#684#685#0" expanded="false" />
-                <element signature="e#752#753#0" expanded="false" />
-                <element signature="e#815#816#0" expanded="false" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAuth.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/biv/network/UserAuth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSession.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/biv/msgSystem/UserSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2006">
+              <caret line="148" column="33" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,10 +233,8 @@
         <option value="$PROJECT_DIR$/src/ru/biv/model/GameParty.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/model/StoneWhite.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/view/game/GameForm.fxml" />
-        <option value="$PROJECT_DIR$/src/ru/biv/model/Config.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/model/TestMain.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/model/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/ru/biv/msgSystem/UserSession.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/network/ObjectRequestSender.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/view/login/LogInForm.fxml" />
         <option value="$PROJECT_DIR$/src/ru/biv/network/UserAuth2.java" />
@@ -225,7 +244,9 @@
         <option value="$PROJECT_DIR$/src/ru/biv/view/game/GameController.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/MainApp.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/view/login/LogInController.java" />
+        <option value="$PROJECT_DIR$/src/ru/biv/model/Config.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/view/login/GameController.java" />
+        <option value="$PROJECT_DIR$/src/ru/biv/msgSystem/UserSession.java" />
         <option value="$PROJECT_DIR$/src/ru/biv/view/login/LogInManager.java" />
       </list>
     </option>
@@ -296,7 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -439,10 +459,33 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HumanGo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HumanGo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,12 +499,13 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="ics" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/javax.json-1.0.4.jar!/" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -792,11 +836,22 @@
       <workItem from="1482606685832" duration="8000" />
       <workItem from="1487488130127" duration="261000" />
       <workItem from="1487489275047" duration="971000" />
+      <workItem from="1487702538599" duration="417000" />
+      <workItem from="1487821626203" duration="6000" />
+      <workItem from="1488051715646" duration="74000" />
+      <workItem from="1488255543816" duration="568000" />
+      <workItem from="1488257528497" duration="1985000" />
+      <workItem from="1488303660242" duration="8000" />
+      <workItem from="1488308820159" duration="56000" />
+      <workItem from="1488346241908" duration="70000" />
+      <workItem from="1488657791705" duration="4026000" />
+      <workItem from="1488768672823" duration="1188000" />
+      <workItem from="1488770660107" duration="64000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16320000" />
+    <option name="totallyTimeSpent" value="24782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,18 +867,18 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907662" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18480301" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32023576" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280943" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20039293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19981238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907662" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739213" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26822916" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26614583" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1001,13 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/StoneWhite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/biv/view/game/GameForm.fxml" />
     <entry file="jar://D:/JDK/javafx-src.zip!/javafx/stage/Stage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1058,52 +1106,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/biv/model/GameParty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/StoneBlack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/Stone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/biv/msgSystem/UserSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1157,25 +1163,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/biv/view/login/GameForm.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/biv/view/login/LogInForm.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="jar://D:/JDK/src.zip!/java/util/Observable.java">
@@ -1193,14 +1197,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/biv/view/game/GameController.java" />
-    <entry file="file://$PROJECT_DIR$/src/ru/biv/network/UserAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JDK/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1218,40 +1214,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/biv/view/login/GameController.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1310#1311#0" expanded="false" />
-            <element signature="e#1348#1349#0" expanded="false" />
-            <element signature="e#1399#1400#0" expanded="false" />
-            <element signature="e#1441#1442#0" expanded="false" />
-            <element signature="e#1845#1846#0" expanded="false" />
-            <element signature="e#1898#1899#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/StoneWhite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/StoneBlack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/biv/model/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/biv/network/UserAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/biv/view/login/LogInController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="19" />
           <folding>
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#752#753#0" expanded="false" />
-            <element signature="e#815#816#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/biv/view/login/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="79" column="79" selection-start-line="79" selection-start-column="79" selection-end-line="79" selection-end-column="79" />
+          <folding>
+            <element signature="e#2281#2282#0" expanded="true" />
+            <element signature="e#2357#2358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/biv/msgSystem/UserSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="148" column="33" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/biv/view/login/LogInManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="125" column="60" selection-start-line="125" selection-start-column="60" selection-end-line="125" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,8 +1,6 @@
 package ru.biv.network;
 
-import javafx.concurrent.Task;
 import ru.biv.msgSystem.UserSession;
-import ru.biv.utils.TimeHelper;
 
 /**
  * Created by Игорь on 12.01.2017.
@@ -21,8 +19,10 @@ public class UserAuth {
     }
 
     public UserSession getUserAuth() {
-        //requestUserSession.setUser(this.userName, responseUserSession.getUserId(userName));
-        requestUserSession.setUser(this.userName, null);
+        requestUserSession.setUser(this.userName, responseUserSession.getUserId(userName));
+    	if (requestUserSession.getUserId(userName) == null) {
+    		requestUserSession.setUser(userName, null);
+    	}
         responseUserSession = ObjectRequestSender.sendGetRequest(LOG_URL, requestUserSession);
         return responseUserSession;
     }

@@ -11,7 +11,7 @@ public final class Config {
 
     public static final Duration ANIMATION_TIME = Duration.millis(40);
 
-    public static final String IMAGE_DIR = "../images/";
+    public static final String IMAGE_DIR = "/ru/biv/images/";
 
     public static final int WINDOW_BORDER = 50; // on desktop platform
     public static final int TITLE_BAR_HEIGHT = 19; // on desktop platform

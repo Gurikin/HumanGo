@@ -146,9 +146,22 @@ public class LogInManager {
     private void setUserData(UserSession userSession) {
         Platform.runLater(new Runnable() {
             @Override public void run() {
-                userSession.getUserName();
-                userSession.getUserId(userAuth.getUserAuth().getUserName());
+                gameController.setLabelsText(userSession);//userSession.getUserName();
+                //userSession.getUserId(userAuth.getUserAuth().getUserName());
             }
         });
+    }
+
+    private Integer checkGameSessionStatus(){
+        switch (userAuth.getUserAuth().getPartyStatus()) {
+            case -1:
+                break;
+            case 0:
+                break;
+            case 1:
+                break;
+        }
+        //TODO necessary to complete this method with the event on every gameSessionStatus
+        return null;
     }
 }
